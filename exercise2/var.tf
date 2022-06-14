@@ -6,6 +6,8 @@ variable ZONE1 {
   default = "ap-south-1a"
 }
 
+
+
 variable AMIS {
   type = map
   default = {

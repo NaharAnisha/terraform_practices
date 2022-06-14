@@ -2,7 +2,7 @@
 yum install wget unzip httpd -y
 systemctl start httpd
 systemctl enable httpd
-wget https://www.tooplate.com/zip-templates/2117_infinite_loop.zip
-unzip -o 2117_infinite_loop.zip
-cp -r 2117_infinite_loop/* /var/www/html/
+wget https://www.tooplate.com/zip-templates/2128_tween_agency.zip
+unzip -o 2128_tween_agency.zip
+cp -r 2128_tween_agency/* /var/www/html/
 systemctl restart httpd
